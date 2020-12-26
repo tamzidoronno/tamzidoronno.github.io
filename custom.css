@@ -2,3 +2,6 @@
 .card-started .profile .slide, .content-sidebar .profile .slide {
     background-size: contain;
 }
+.content .title:before{
+    display: none;
+}
