@@ -2,3 +2,11 @@
 .card-started .profile .slide, .content-sidebar .profile .slide {
     background-size: contain;
 }
+
+.card-started .profile.no-photo .slide, .content-sidebar .profile.no-photo .slide {
+    height: 50%;
+}
+
+.card-started:after, .card-started .profile .image:before, .content-sidebar .profile .image:before, .content .title:before, .box-item .image .info:before, .content-sidebar h2.widget-title:before {
+    background: linear-gradient(135deg,rgb(0 0 0 / 40%) 0%,rgba(76,119,83,.01) 100%);
+}
